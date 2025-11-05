@@ -31,4 +31,4 @@ jobs:
 
     # Optional: Uploads the full dependency graph to GitHub to improve the quality of Dependabot alerts this repository can receive
     - name: Execute Jar File
-      run: sudo kill -9 sudo lsof -t -i:8081 & sudo java -jar /root/actions-runner/_work/system-api/system-api/target/system-api-0.0.1-SNAPSHOT.jar & 
+      run: sudo kill -9 sudo lsof -t -i:8081 & sudo java -jar /root/actions-runner/_work/pipeline/pipeline/target/pipeline-0.0.1-SNAPSHOT.jar & 
